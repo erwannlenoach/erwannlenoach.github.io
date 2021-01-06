@@ -1,0 +1,65 @@
+header {
+justify-content: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+   margin-bottom: :20px;
+}
+
+header > div {
+  padding: 20px
+}
+.connexion{
+  background-color: blue;
+  color: white;
+  border-radius: 25%
+}
+body {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+
+#container{
+    display:flex;
+    flex-wrap: wrap;
+  }
+.logo {
+  justify-content: center;
+  margin: 100px
+  }
+.barre {
+  justify-content: space-between;
+  margin-left: 400px;
+  margin-right:400px
+}
+.recherchechance {
+justify-content: center;
+padding: 30px;
+}
+.recherchechance > a  {
+background-color: grey;
+padding: 10px;
+margin-left: 20px
+}
+.jugement {
+justify-content: center;
+margin-left:500px;
+margin-right:500px;
+margin-bottom: 200px
+}
+
+footer > div {
+  display:flex;
+  flex-flow: row;
+  background-color: #DCDCDC;
+}
+.france {
+  margin-right: 300px;
+  width: 100%;
+  background-color: #DCDCDC;
+}
+
+.endfooter > a {
+  width:100%;
+  text-align: center;
+  margin: auto
+}
