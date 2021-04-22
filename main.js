@@ -6,13 +6,12 @@ function keyStart() {
 
 function search(input) {
 
-    let url = `http://www.omdbapi.com/?t=${input}&apikey=${key}`
+    let url = `https://www.omdbapi.com/?t=${input}&apikey=${key}`
 
     fetch(url)
         .then((response) => response.json())
         .then((data) => displayMovie(selector, data.Poster, data.Title, data.Year, data.Plot))
         .then((data) => showMore())
-
 
     // display movies
 
