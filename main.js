@@ -7,6 +7,7 @@ function keyStart() {
 function search(input) {
 
     let url = `https://www.omdbapi.com/?t=${input}&apikey=${key}`
+    console.log(url)
 
     fetch(url)
         .then((response) => response.json())
